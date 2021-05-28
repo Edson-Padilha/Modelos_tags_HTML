@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sintaxe CSS</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <style>
+        p {
+            color: red;
+        }
+        .sem_underline{
+            text-decoration:none;
+        }
+        #so_pra_vc{
+            color:green;
+        }
+        #link_falso{
+                        color: blue;
+                    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Sintaxe CSS</h1>
+        <hr>
+        <a href="../index.html">Voltar</a>
+        <hr>
+        <ul>
+            <li>
+                Incluir no head a tag
+                < style>...< /style>
+            </li>
+            <li>
+                Criando estilo que afeta todas as tags com o nome escolhido
+                <br>
+                <pre>
+                    < style>
+                        p{
+                         color:red;
+                        }
+                    < /style>
+                </pre>
+                <br>
+                Exemplo:
+                <p>Sou um parágrafo vermelho</p>
+            </li>
+            <li>
+                Incluir no head a tag
+                < style>...< /style>
+            </li>
+            <li>
+                Criando estilo que afeta todas as tags que usam uma classe com esse nome
+                <br>
+                Exemplo:
+                <br>
+                <a class="sem_underline" href="#">Sem underline</a>
+                <br>
+                <a class="sem_underline_também" href="#">Sem underline também</a>
+                <br>
+                <a href="#">Vou seguindo o padrão mesmo</a>
+                <br>
+
+                <pre>
+                    < style>
+                        p{
+                         color:red;
+                        }
+                    < /style>
+                    <br>
+                    < style>
+                    .sem_underline{
+                        text-decoration:none;
+                    }
+                    < /style>
+                </pre>
+                < a class="sem_underline" href="#">Sem underline< /a>
+                        <br>
+                        < a class="sem_underline_também" href="#">Sem underline também< /a>
+                                <br>
+                                < a href="#">Vou seguindo o padrão mesmo< /a>
+
+                                        <br>
+                                        Exemplo:
+                                        <p>Sou um parágrafo vermelho</p>
+            </li>
+            <li>
+
+            </li>
+            <li>
+                Criando um estilo especifico para um :indeterminate
+                <br>
+                <pre>
+                    < style>
+                    #so_pra_vc{
+                        color:green;
+                    }
+                    #link_falso{
+                        color: blue;
+                    }
+
+                    < /style>
+                </pre>
+                <h4 id="so_pra_vc"> H4 com com verde</h4>
+                <h5 id="link_falso"> H5 Clica aqui</h5>
+                <br>
+                < h4 id="so_pra_vc"> H4 com com verde< /h4>
+                <br>
+                < h5 id="link_falso"> H5 Clica aqui< /h5>
+            </li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+
+</body>
+
+</html>
